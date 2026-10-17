@@ -1,0 +1,318 @@
+.bg-custom-green {
+  background-color: #1a3c22 !important;
+}
+
+/* Logo image sizing */
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  padding: 0.5rem 0.75rem !important;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #8ed053 !important;
+}
+.dropdown-menu {
+  background-color: #1a3c22;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.dropdown-item {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.dropdown-item:hover {
+  background-color: #275431;
+  color: #8ed053;
+}
+
+/* Hero Carousel Custom Styling */
+.hero-carousel {
+  height: 85vh;
+  min-height: 500px;
+}
+.carousel-item {
+  height: 85vh;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+/* Dark overlay for better text visibility */
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+.carousel-caption-custom {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+/* Giant Outline / Solid Text */
+.hero-title {
+  font-size: clamp(3rem, 10vw, 9rem);
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+/* Action Buttons */
+.hero-btn {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.hero-btn:hover {
+  background: #ffffff;
+  color: #1a3c22;
+}
+.hover-green:hover {
+  color: #8ed053 !important;
+}
+
+/* Focus Card Styling */
+.focus-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-5px);
+}
+
+.focus-card img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Specific heights matching reference layout */
+.focus-tall img {
+  height: 100%;
+  min-height: 380px;
+}
+
+.focus-grid img {
+  height: 180px;
+}
+
+/* Gradient overlay at the bottom for text readability */
+.focus-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.25rem 0.75rem 0.75rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+/* Custom Button & Image Styling for Grant Section */
+.btn-custom-green {
+  background-color: #1a3c22;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.6rem 1.8rem;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-custom-green:hover {
+  background-color: #275431;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.grant-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+/* Events Section Styling */
+.events-section {
+  background-color: #ffffff !important;
+}
+.event-filter-btn {
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.btn-event-active {
+  background-color: #125a24;
+  color: #ffffff;
+  border: 2px solid #1a3c22;
+}
+.btn-event-outline {
+  background-color: transparent;
+  color: #1a3c22;
+  border: 2px solid #1a3c22;
+}
+.btn-event-outline:hover {
+  background-color: #eef4ef;
+  color: #ffffff;
+}
+.event-card {
+  background-color: #ffffff !important;
+  border: 1px solid #e0e0e0;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+}
+.event-card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+.event-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.35rem 0.85rem;
+  border-radius: 20px;
+  background-color: #e8f5e9;
+  color: #105220;
+  text-decoration: none;
+  display: inline-block;
+}
+.event-read-btn {
+  background-color: #276f27f0;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s;
+}
+.event-read-btn:hover {
+  background-color: #1d4e28;
+  color: #ffffff;
+}
+/* Footer Custom Styling */
+.footer-container {
+  background: linear-gradient(135deg, #0b1a0d 0%, #1a3c22 100%);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  color: #ffffff;
+}
+
+.footer-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-label {
+  font-size: 0.85rem;
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+.footer-value {
+  font-size: 0.9rem;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-value:hover {
+  color: #8ed053;
+}
+
+/* Social Media Circular Icons */
+.social-icon-btn {
+  width: 36px;
+  height: 36px;
+  background-color: #ffffff;
+  color: #1a3c22;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon-btn:hover {
+  background-color: #8ed053;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* White Donate Button */
+.btn-donate-footer {
+  background-color: #ffffff;
+  color: #1a3c22;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  padding: 0.65rem 2.2rem;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-donate-footer:hover {
+  background-color: #8ed053;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.footer-hr {
+  border-color: rgba(255, 255, 255, 0.2);
+  opacity: 1;
+}
+
+.footer-bottom-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.footer-bottom-link:hover {
+  color: #8ed053;
+}
