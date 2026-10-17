@@ -6,7 +6,7 @@ A fully responsive, static replica of the **Adhishrihaan Foundation** homepage (
 
 ## 🚀 Live Demo & Repository
 * **GitHub Repository:** https://github.com/Vishal496-beep/Adhishrihaan.git
-* **Live Preview:** [Insert your Vercel / Netlify Deployment Link Here]
+* **Live Preview:**adhishrihaanpng.vercel.app
 
 ---
 
